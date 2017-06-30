@@ -6,7 +6,7 @@
 // @grant       none
 // @run-at      document-idle
 // @license     The Unlicense
-// @homepage	https://github.com/Matzeee/AyondoTweaks/
+// @homepageURL	https://github.com/Matzeee/AyondoTweaks/
 // ==/UserScript==
 
 
