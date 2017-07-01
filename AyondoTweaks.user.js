@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        AyondoTweaks
+// @name        Ayondo Tweaks
 // @namespace   https://github.com/Matzeee
 // @include     https://wetrade.ayondo.com/follower/*
 // @version     1
@@ -18,7 +18,7 @@ function updateTraderTitle() {
 
 
 function portfolioLinks() {
-    var counter = document.querySelector('div.provider-container:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)');
+    var counter = document.querySelector('div.provider-container:nth-child(5) > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)');
     if (counter) {
         for (i = 1; i <= 5; i++) {
             var trader = document.querySelector('div.provider-container:nth-child(' + i + ') > div:nth-child(1) > div:nth-child(2) > a:nth-child(2)');
